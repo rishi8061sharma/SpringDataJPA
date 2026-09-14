@@ -1,0 +1,12 @@
+package com.hwlmsp.mybootadmin;
+import org.springframework.boot.SpringApplication; 
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+@SpringBootApplication
+@EnableAdminServer
+public class MyBootAdminServer {
+
+	public static void main(String as[]) { 
+		 SpringApplication.run(MyBootAdminServer.class, as); 
+		 } 
+}

@@ -1,0 +1,11 @@
+package com.hwlmsp.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MyBootApplication {
+	public static void main(String as[]) { 
+		 SpringApplication.run(MyBootApplication.class, as); 
+		 } 
+}
