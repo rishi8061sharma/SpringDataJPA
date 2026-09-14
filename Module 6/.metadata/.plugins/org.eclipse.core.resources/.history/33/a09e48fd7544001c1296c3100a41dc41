@@ -1,0 +1,18 @@
+package com.hwlmsp.springboot;
+import org.springframework.web.bind.annotation.GetMapping; 
+import org.springframework.web.bind.annotation.PathVariable; 
+import org.springframework.web.bind.annotation.RequestParam; 
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController  
+public class HaiController {
+
+	@GetMapping(value="/myhello/{name}") 
+	 public Hai getMessage(@PathVariable String name) { 
+	 System.out.println("HaiController - getMessage()"); 
+	 
+	 Hai hello =new Hai(101,name, "Hello Guys !!!" ); 
+	 return hello; 
+	 }
+	
+}

@@ -1,0 +1,12 @@
+package com.hwlmsp.springboot;
+
+import org.springframework.boot.actuate.health.Health;
+
+public class MyCustomHealthIndicator  r extends AbstractHealthIndicator { 
+	 @Override 
+	 protected void doHealthCheck(Health.Builder builder) throws Exception { 
+	 builder.up() 
+	 .withDetail("app", "App is Running Successfully") 
+	 .withDetail("error", "Nothing! I'm good."); 
+	 } 
+	}

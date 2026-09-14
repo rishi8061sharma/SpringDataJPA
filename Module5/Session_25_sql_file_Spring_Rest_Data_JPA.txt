@@ -1,0 +1,15 @@
+drop tables myaccounts;
+
+create table myaccounts(
+   accno int primary key,
+   atype char(5),
+   bcode char(10),
+   balance double,
+   city char(15)
+);
+
+insert into myaccounts values(101, 'SA', 'BTM-01', 15000, 'Blore');
+insert into myaccounts values(102, 'SA', 'BTM-02', 35000, 'Blore');
+insert into myaccounts values(103, 'CA', 'BTM-03', 55000, 'Blore');
+insert into myaccounts values(104, 'CA', 'BTM-01', 25000, 'Blore');
+insert into myaccounts values(105, 'SA', 'AMR-01', 65000, 'Hyd');

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/hai-micro-service" element2="/MyBootAdminServer" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1637427492282"/>&#x0A;<refactoring comment="Rename resource &apos;hello-micro-service&apos; to &apos;hello-micro-service-1&apos;" description="Rename resource &apos;hello-micro-service&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/hello-micro-service" name="hello-micro-service-1" stamp="1637428308288" updateReferences="true"/>
+</session>

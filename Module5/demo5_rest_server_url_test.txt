@@ -1,0 +1,12 @@
+1. http://localhost:12345/mycustomer/custId/100
+
+2. http://localhost:12345/mycustomer/custId/55
+
+
+3. http://localhost:12345//mycustomer/phone/54000
+
+4. http://localhost:12345//mycustomer/phone/45000
+
+5. http://localhost:12345//mycustomer/city/Blore
+
+6. http://localhost:12345//mycustomer/city/Hyd
