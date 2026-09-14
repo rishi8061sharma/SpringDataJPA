@@ -1,0 +1,13 @@
+1. http://localhost:12345/myaccount/101
+
+2. http://localhost:12345/myaccounts
+
+
+3. http://localhost:12345/myaccounts/city/Blore
+
+
+4. http://localhost:12345/myaccounts/city/Hyd
+
+
+5. http://localhost:12345/myaccounts/city/Delhi
+Response will come empty list becoz data is not there city Delhi

@@ -1,0 +1,6 @@
+Test on Browser
+
+http://localhost:12345//mycustomer/city/Jaipur
+
+
+http://localhost:12345/myaccounts

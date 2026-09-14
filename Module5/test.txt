@@ -1,0 +1,20 @@
+http://localhost:12345/myhello
+
+
+http://localhost:12345/myhello/Rishi Sharma
+
+
+http://localhost:12345/myhello/name/Rishi Sharma
+
+
+http://localhost:12345/myhello/name/Rishi Sharma/message/Hello Guys
+
+
+http://localhost:12345/myhello1/name/Rishi Sharma
+Note: Tested in browser => Convert into XML
+Tested in postman => Convert into JSON
+
+http://localhost:12345/myhello1?name=Rakesh
+
+
+http://localhost:12345/myhello1
