@@ -1,0 +1,24 @@
+spring.application.name=hello-micro-service 
+server.port=12345 
+#Log Properties 
+logging.level.root=INFO 
+logging.level.com.hwlmsp=DEBUG 
+logging.pattern.console=%-5level %logger{36} - %m %n
+
+
+#management.endpoints.web.exposure.include=info,beans
+#management.endpoints.web.exposure.include=health,info,beans
+management.endpoints.web.exposure.include=*
+
+management.endpoint.scheduledtasks.enabled=false
+management.endpoint.caches.enabled=false
+
+management.endpoints.web.exposure.exclude=conditions,configprops
+
+info.app.name=@project.name@ 
+info.app.description=@project.description@ 
+info.app.version=@project.version@ 
+info.app.encoding=@project.build.sourceEncoding@ 
+info.app.java.version=@java.version@ 
+info.app.developer=Srinivas Dande 
+info.app.company=Java Learning Center
