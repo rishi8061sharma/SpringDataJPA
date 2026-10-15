@@ -14,9 +14,9 @@ public class MyBootApplication  implements CommandLineRunner{
 	
 	
 	public static void main(String[] args) {
-		 System.out.println(" Boot App - Begin");
+		 System.out.println(" Boot App - Begin Test for Jenkins ");
 		 SpringApplication.run(MyBootApplication.class, args);
-		 System.out.println(" Boot App - End");
+		 System.out.println(" Boot App - End for Jenkins");
 	}
 
 	@Override
